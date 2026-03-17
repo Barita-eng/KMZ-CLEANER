@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>KMZ Recreate Tool</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>KMZ Recreate Tool</h1>
+    <p>Upload KMZ → Clean → Download</p>
+
+    <div class="card">
+
+        <input type="file" id="fileInput">
+
+        <button onclick="uploadFile()">
+            Recreate KMZ
+        </button>
+
+        <p id="status"></p>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
